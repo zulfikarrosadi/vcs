@@ -19,4 +19,9 @@ uploading changes to remote repo
 git push origin <branch_name>
 ```
 
-getting stuff from git pull
+fetch and pull
+the differences is when doing ```fetch``` we just getting the changes or update information about the file without getting the actuall file, and for ```pull``` is going to download the changes and merge it to our local repo
+```
+git pull origin
+git fetch origin
+```
