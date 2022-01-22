@@ -2,7 +2,8 @@
 learn how to use git and github
 
 #### git clone
-adding '.' (period) at the end of git clone will clone the repo without creating new folder
+adding '.' (period) at the end of git clone will clone the repo without creating
+new folder
 ```
 git clone https://github.com/zulfikarrosadi/vcs.git .
 ```
@@ -23,7 +24,9 @@ git push origin <branch_name>
 ```
 
 #### fetch and pull
-the differences is when doing ```fetch``` we just getting the changes or update information about the file without getting the actuall file, and for ```pull``` is going to download the changes and merge it to our local repo
+the differences is when doing ```fetch``` we just getting the changes or update
+information about the file without getting the actuall file, and for ```pull``` 
+is going to download the changes and merge it to our local repo
 ```
 git pull origin
 git fetch origin
