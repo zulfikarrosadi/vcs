@@ -5,3 +5,8 @@ adding '.' (period) at the end of git clone will clone the repo without creating
 ```
 git clone https://github.com/zulfikarrosadi/vcs.git .
 ```
+
+connect your local repo to remote repo
+```
+git remote add origin https://github.com/zulfikarrosadi/vcs.git
+```
