@@ -52,3 +52,9 @@ git tag -a v0.1.0 -m "optional message"
 git show tag v0.1.0
 git push --tags origin master
 ```
+
+#### git log
+logging your changes with little sparkle
+```
+git log --oneline --decorate --graph --all
+```
