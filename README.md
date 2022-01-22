@@ -58,3 +58,10 @@ logging your changes with little sparkle
 ```
 git log --oneline --decorate --graph --all
 ```
+
+#### git branch
+create new branch and commiting to upstream
+```
+git checkout -b develop // create and checkout to develop branch
+git push origin develop // push develop branch to upstream
+```
