@@ -44,3 +44,11 @@ is going to download the changes and merge it to our local repo
 git pull origin
 git fetch origin
 ```
+
+#### git tag
+all recent commit will be tagged to this v0.1.0
+```
+git tag -a v0.1.0 -m "optional message"
+git show tag v0.1.0
+git push --tags origin master
+```
