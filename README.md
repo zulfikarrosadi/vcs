@@ -1,7 +1,20 @@
 # VCS
 learn how to use git and github
 
-### git clone
+### Small Team Workflow
+1. Create branch from develop branch and call it like "feature-<describe fiture or ID>"
+2. Work on that feature, commit if there any changes that should to commit
+3. Test your feature
+4. Merge into develop branch
+5. Delete feature branch
+6. Once enough features and / or fixes has been completed, prepare your release
+7. Once release is tested and prepped, merge into master
+8. Tag master branch commit with release number
+9. Repeat
+
+### Basic command
+
+#### git clone
 adding '.' (period) at the end of git clone will clone the repo without creating
 new folder
 ```
@@ -31,14 +44,3 @@ is going to download the changes and merge it to our local repo
 git pull origin
 git fetch origin
 ```
-
-### Small Team Workflow
-1. Create branch from develop branch and call it like "feature-<describe fiture or ID>"
-2. Work on that feature, commit if there any changes that should to commit
-3. Test your feature
-4. Merge into develop branch
-5. Delete feature branch
-6. Once enough features and / or fixes has been completed, prepare your release
-7. Once release is tested and prepped, merge into master
-8. Tag master branch commit with release number
-9. Repeat
