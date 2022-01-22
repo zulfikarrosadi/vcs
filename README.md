@@ -19,4 +19,4 @@ uploading changes to remote repo
 git push origin <branch_name>
 ```
 
-getting stuff from fetch
+getting stuff from git pull
